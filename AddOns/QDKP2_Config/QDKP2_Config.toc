@@ -1,0 +1,29 @@
+## Interface: 11302
+## Title: Quick DKP V2 - Config
+## Author: Akhaan & HonestyHyj prev author rb@belloli.net
+## Version: 5.4.4
+## Notes: Configure options for QDKP2. Needs the core addon.
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Dependencies: QDKP_V2
+## SavedVariables: QDKP2_Config_DB
+
+QDKP2_Config.xml
+
+Locales\enGB.lua
+Locales\QDKP2_Config-zhCN.lua
+Locales\QDKP2_Config-zhTW.lua
+
+QDKP2_Config.lua
+ProfileToGlobal.lua
+ConfigTree\Main.lua
+ConfigTree\Announce.lua
+ConfigTree\BidManager.lua
+ConfigTree\Awarding.lua
+ConfigTree\Broadcast.lua
+ConfigTree\GuildNotes.lua
+ConfigTree\GUI.lua
+ConfigTree\Looting.lua
+ConfigTree\Misc.lua
+ConfigTree\ODS.lua
+

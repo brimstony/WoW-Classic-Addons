@@ -1,0 +1,16 @@
+lightweight tag 4531ff74d474afc9ca9d2df8cda8ac28be15ad73 0.1.8-alpha
+Author:	Joshua Dooley <josh.dooley@gmail.com>
+Date:	Sat Sep 14 11:24:34 2019 -0500
+
+commit 4531ff74d474afc9ca9d2df8cda8ac28be15ad73
+Author: Joshua Dooley <josh.dooley@gmail.com>
+Date:   Sat Sep 14 11:24:34 2019 -0500
+
+    Modified delay.
+
+commit a541b4ac34fb01db1326a22e2b9ac4918865847a
+Author: Joshua Dooley <josh.dooley@gmail.com>
+Date:   Sat Sep 14 11:09:59 2019 -0500
+
+    Added a delay before the sound is fired.
+

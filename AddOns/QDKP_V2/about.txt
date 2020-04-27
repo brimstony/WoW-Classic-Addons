@@ -1,0 +1,219 @@
+Release Log:
+v 6.43 November 20, 2019
+* Fix to log entry window to stop it disappearing when editing
+
+v 6.42 September 29, 2019
+* Update libraries for config
+* Version number for GUI
+
+v 6.41 September 28, 2019
+* Fixes for Set Player Data window
+
+v 6.4 September 26, 2019
+* Modifications for Classic
+* Myriad XML errors now flagged
+
+v 6.34 December 23, 2017
+* Eonar encounter is called The Defense of Eonar, not what is in dungeon journal
+* Rearranged list of bosses to make in-game viewing easier
+
+v 6.33 November 23, 2017
+* Update Options.ini file to add Antorus raid as per Dungeon Journal
+
+v 6.32 August 29, 2017
+* Update ToC 
+
+v 6.31
+* Fix link to addon in exporter (thanks viperchannel)
+
+v 6.3 June 13, 2017
+* Remove HFC and add ToS to boss list
+* ToC update
+
+v 6.2 March 28 2017
+* ToC update 
+* Correct export function for ISO character sets (thanks wxtry)
+
+v6.1r February 20, 2017
+* Release version of 6.1 alpha fixes below
+* Correct spelling of Chronomatic Anomaly
+
+v 6.1a2 February 12, 2017
+* Fix localization for female class names
+* Update libBabbleBoss
+
+v 6.1 February 10, 2017
+* Fix roll detection for cross-server groups
+* Fix localized monk, demon hunter
+
+v 6.0.9c January 19, 2017
+* Fix for Demon Hunter color in roster
+
+v 6.0.9b January 18, 2017
+* Change "Nighthold" to "The Nighthold"
+* Version update for config
+
+v 6.0.9a November 14, 2016
+* Add Trial of Valor to options.ini
+
+v 6.0.9 October 26, 2016
+*  Bump ToC to 7.1
+
+v 6.0.8 October 4, 2016
+*  Allow names to be cleared from custom rosters
+
+v 6.0.7 September 16, 2016
+*  New table of bosses for Emerald Dream
+*  Remove occasional assertion error (thanks Dracula)
+*  Additional locations for fixed loot pricing
+
+v 6.0.6 July 19, 2016
+*  Version update for Legion
+
+v 6.0.5 June 23, 2015
+* Update data file for Hellfire Citadel raid.  May need update for encounter names.
+* Bump ToC
+
+v6.0.4b March 19, 2015
+*Tested merged realms fix
+*Incorporate Phanx's UTF-8 handling to replace existing UTF-8 handling
+
+v6.0.3  February 25, 2015
+*ToC bump for 6.1
+*Added BRF bosses to options.ini file
+
+v6.0.2e January 29, 2015
+*Change to item linking so that stack split window doesn't open when linking in chat.
+
+v6.0.2d January 15, 2015
+*Corrected name of Twin Ogron encounter
+
+v6.0.2c December 11, 2014
+*Corrected typo in Bidman
+
+v6.0.2b December 11, 2014
+*Refreshed all libraries trying to find the resetting error some people are experiencing in Highmaul
+
+v6.0.2a
+*Updated default.ini file
+
+v.6.0.2 (November 12, 2014)
+*Can use in-game config to set awards by instance for the new raid types
+*Setting awards per boss requires editing options.ini file (may need to reset afterwards)
+*Highmaul bosses added, Throne of Thunder removed
+*Assertion error when raid leader changes characters mid-raid, but addon continues working
+
+v.6.0.1
+*Updated libraries
+*Now announces raid awards when automatically awarded
+
+v6.0.0 (October 14, 2014)
+*Update for 6.0 changes, beta version
+*Note must use data files, config not yet updated to new raid formats.  Use Reset Profile to be sure to read in the options file.
+*Now uses encounter end for boss fight/difficulty detection
+
+v4.4.6c (September 5, 2014) beta
+*Fix reporting error
+*Change message to request tickets on Curse
+
+v5.4.6b (April 15, 2014) beta
+*Fix error with awarding in simple bid system
+
+v5.4.6a (April 3, 2014) beta
+*Modifies output line for Ni Karma system to display adjusted roll rather than dkp spent
+
+v5.4.6 (January 25, 2014)
+*Uses a different approach to realm names, requires correct capitalization of realm names when manually typed.
+*Attempt to fix externals.
+
+v5.4.5 (January 11, 2014)
+*Make On-demand work with fully-qualified names.
+
+v5.4.4 (December 18, 2013)
+*Change to fully-qualified names throughout to deal with merged servers.
+
+v5.4.3a (December 14, 2013)
+*UnitFullName in sessions.lua that was missed in 5.4.2c
+
+v5.4.3 (December 14, 2013)
+*Tag as release.  Works for 2-word server names, some issues remain for merged realms
+
+v5.4.2c (December 13, 2013)
+*Uses UnitFullName to get correct realm name
+
+v5.4.2a (December 13, 2013)
+*added init of playerrealm to guild.lua for testing
+
+v5.4.2 (December 11, 2013)
+*Changes to strip out realm in 5.4.2 names
+*Incorporates change to be able to start a session in a flex raid
+
+
+v5.4.1 (September 14, 2013)
+*Added bosses for Siege of Orgrimmar
+*Added Siege of Orgrimmar raid
+*Removed Raids prior to Throne of Thunder
+*Removed bosses prior to Throne of Thunder
+*Added the ratio for EPGP - Credit to Bryce
+
+v5.3.0 (March 22nd, 2013
+*Minor updates for 5.3 compatibility
+
+v5.2.3 (March 24, 2013)
+*Removed scanning guild during combat to prevent script errors (as per ticket 30)
+*Updated libs
+
+v5.2.2 (March 14, 2013)
+*Fix Bug stopping auto award on Boss Death
+
+v5.2.1 (March 6, 2013)
+*Start Session Bug Fix
+*Reduced Scrip times
+*Reduced Memory Usage
+
+v5.2.0 (March 6, 2013)
+*fix for GetInstanceInfo
+*update toc
+
+v5.1.1 (05/01/2012)
+*Added support for Throne of Thunder for PTR testing
+*$itemprice keyword test Fix in Options GUI
+*Updated Libs
+*Bug Fix with Auto Awarding
+*Updated Bosses
+*Updated Raids 
+*Options GUI updated
+
+v5.1.0 (November 28th, 2012)
+*TOC update for World of Warcraft patch 5.1.0
+
+v5.0.8 (November 10, 2012)
+*Fixed 22 "Set Winner" not working under some conditions
+
+v5.0.7 (September 27, 2012)
+*Fixed 20 Winner detection keyword editing
+
+v5.0.6 (September 21, 2012)
+*Fixed 17 Out of Zone Timer Awards
+*Fixed 13 Loot recipient not eligible--note that if the recipient is not eligible, bidding is not closed so the bid manager can select the next person.
+
+v5.0.5 (08/09/2012)
+*Fixed Zero sum and ironman not working on alts (Thanks htmoller)
+*Fixed Opening Config causes nil table ("error on first loot") 
+*Fixed Nil error with loot window when more than 1 page (HonestyHyj)
+
+v5.0.4 (01/09/2012)
+*Revert change to check for player in raid, now works for dkp to standby (thanks JonBoy2001)
+*Set data box now allows edits to fractional hours when hours > 1000. (GUI.xml
+
+v5.0.3 (31/08/2012)
+*Libs Updated
+
+v5.0.2 (30/08/2012)
+*Fixed Start Session - There is a current bug preventing the addon from determining the correct instance difficulty. This should be fixed in next version
+
+v5.0.1 (August 28, 2012)  by HonestyHyj
+*Update to make MoP compliant
+*Fixed error on first loot from uninitialized arrays
+*Modified permissions to allow running the mod without guild note edit privileges
+*Hours field extended by one digit

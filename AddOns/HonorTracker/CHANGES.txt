@@ -1,0 +1,24 @@
+tag eb5ec3303ac73be8906402d0f4757d861a2ee4dd v3.2.7
+Author:	Shadowed <shadowed.wow@gmail.com>
+Date:	Mon Jan 27 22:15:21 2020 -0800
+
+Tagging as release v3.2.7
+
+commit 20967ab904aa64235a47fc0382be8dc08678e1f1
+Author: Shadowed <shadowed.wow@gmail.com>
+Date:   Mon Jan 27 22:14:07 2020 -0800
+
+    Switch to DRing after 10 kills instead of 4
+
+commit 9ac0dac7838fa8113797c6dc89d1a0a43edd453e
+Author: Shadowed <shadowed.wow@gmail.com>
+Date:   Thu Jan 23 18:15:32 2020 -0800
+
+    Store a copy of last week data on a weekly reset
+
+commit 6b9fd2452acfd22be4bd2cdbbbda6af219c10340
+Author: Shadowed <shadowed.wow@gmail.com>
+Date:   Thu Jan 23 18:15:20 2020 -0800
+
+    Corrected non-US reset times
+

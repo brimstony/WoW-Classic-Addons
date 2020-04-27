@@ -1,0 +1,7 @@
+## Interface: 11303
+## Title: TankWarningsClassic
+## Version: 1.1.9(BETA)
+## Notes: Send chat warnings for critical tank cooldowns and/or failed ability attempts
+## SavedVariables: TankWarningsClassicSV
+
+TankWarningsClassic.xml

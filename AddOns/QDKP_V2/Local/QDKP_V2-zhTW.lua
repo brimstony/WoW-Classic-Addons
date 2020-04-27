@@ -1,0 +1,190 @@
+-- Copyright 2012 Akhaan & Honesty Hyj (www.quickdkp.com)
+-- Traditional Chinese (BY Miruido) 感謝 其实我不是小泡泡 漢化推薦
+
+if GetLocale()=='zhTW' then
+
+--General
+QDKP2_LOC_Net="當前"
+QDKP2_LOC_Spent="消費"
+QDKP2_LOC_Total="獲得"
+QDKP2_LOC_Hours="時間"
+QDKP2_LOC_Start="開始"
+QDKP2_LOC_Finish="完成"
+QDKP2_LOC_Stop="停止"
+QDKP2_LOC_Resume="繼續"
+QDKP2_LOC_Session="活動"
+QDKP2_LOC_GeneralSessName="常規"
+
+
+--Warnings/Questions
+QDKP2_LOC_NotIntoAGuild="你還沒有加入一個公會。"
+QDKP2_LOC_NotIntoARaid="你還沒有加入一個團隊。"
+QDKP2_LOC_NeedManagementMode="在使用這個功能前你需要先開始一個活動。"
+QDKP2_LOC_BetaWarning="你正在使用QDKPV2的一個測試版本。有問題請回饋到官方論壇 www.quickdkp.com，謝謝。"
+QDKP2_LOC_GoesNegative="$NAME 的當前DKP變成負分了。"
+QDKP2_LOC_Negative="$NAME 的獲得DKP變成負分了。"
+QDKP2_LOC_ClearDB="本地數據被清空了。"
+QDKP2_LOC_Loaded=QDKP2_COLOR_RED.."$VERSION $BETA"..QDKP2_COLOR_WHITE.." 已載入。"
+QDKP2_LOC_NoRights=QDKP2_COLOR_RED.."你沒有許可權這麼做。"
+QDKP2_LOC_EqToLowCap="不能扣除 $NAME 的DKP，他的DKP已達到最小值。"
+QDKP2_LOC_NearToLowCap="$NAME 的DKP太低了，你最多扣他$MAXCHARGE點DKP。"
+QDKP2_LOC_CloseSessionWithRaid="你要結束進行中的活動麼？\n如果你現在不結束，它會在五分鐘內結束。"
+QDKP2_LOC_NameNotInGuild="$NAME 似乎不在公會中，請稍後再試。"
+QDKP2_LOC_WinDetect_Q="你想打開自動獲取戰利品獲得者的名字麼？"
+QDKP2_LOC_NoRevertOnCheck="你不能在檢查DKP時撤銷改動，請稍後再試。"
+QDKP2_LOC_CloseSessNow="你想關閉當前活動嗎？"
+QDKP2_LOC_EnterRandTxt="請輸入任意文本。"
+QDKP2_LOC_CantReadOfficerNotes="嘗試從公會官員備註中獲取DKP資訊，但是你沒有查看官員備註的許可權，請聯繫公會管理員解決。"
+
+--Raid Manager
+QDKP2_LOC_IsInRaid="從活動開始就在一直團隊副本中。"
+QDKP2_LOC_IsInRaidOffline="參加了活動但是離線。"
+QDKP2_LOC_JoinsRaid="在團隊副本中。"
+QDKP2_LOC_JoinsRaidSby="在活動中做替補。"
+QDKP2_LOC_JoinsActive="在活動中做進本人員。"
+QDKP2_LOC_GoesOnline="上線了。"
+QDKP2_LOC_GoesOffline="下線了。"
+QDKP2_LOC_IsOffline="離線。"
+QDKP2_LOC_NoInGuild="$NAMES 似乎不在公會中，跳過。"
+QDKP2_LOC_LeftRaid="離開了團隊。"
+QDKP2_LOC_RemRaid="從團隊名單中移出。"
+QDKP2_LOC_ExtJoins="$NAME 現在進本了，將他從替補列表中移除。"
+
+--IRONMAN BONUS
+QDKP2_LOC_FinishWithRaid="全程獎勵還沒有結束。\n你想現在結束它麼？"
+QDKP2_LOC_StartButOffline="全程獎勵開始，但是有人離線了。"
+QDKP2_LOC_IronmanMarkPlaced="全程獎勵標記點已放置。"
+QDKP2_LOC_DataWiped="全程資料已清除。"
+QDKP2_LOC_No1Awarded="沒人獲得全程獎勵。"
+QDKP2_LOC_NumAwarded="$NUMBER 個玩家獲得 $DKP DKP作為全程獎勵。"
+
+--DKP Modify
+QDKP2_LOC_Gains="獲得了 $GAIN DKP。"
+QDKP2_LOC_GainsSpends="獲得了 $GAIN DKP，消費了 $SPEND DKP。"
+QDKP2_LOC_GainsEarns="獲得了 $GAIN DKP，積累了 $HOUR 小時時長。"
+QDKP2_LOC_GainsSpendsEarns="獲得了$GAIN DKP，消費了 $SPEND DKP，積累了 $HOUR 小時時長。"
+QDKP2_LOC_Spends="消費了 $SPEND DKP。"
+QDKP2_LOC_SpendsEarns="消費了 $SPEND DKP，積累了 $HOUR 小時時長。"
+QDKP2_LOC_Earns="積累了 $HOUR 小時時長。"
+QDKP2_LOC_ReceivedReas="線上團隊成員獲得 $AMOUNT DKP，原因：$REASON。"
+QDKP2_LOC_Received="團隊成員獲得 $AMOUNT DKP。"
+QDKP2_LOC_ZSRecReas="$NAME 給予團隊 $AMOUNT DKP，原因：$REASON。"
+QDKP2_LOC_ZSRec="$NAME 給予團隊 $AMOUNT DKP。"
+QDKP2_LOC_RaidAw="【團隊獎勵】 $AWARDSPENDTEXT"
+QDKP2_LOC_RaidAwReas="【團隊獎勵】 $AWARDSPENDTEXT，原因：$REASON。"
+QDKP2_LOC_RaidAwMain="RAID $AWARDSPENDTEXT"
+QDKP2_LOC_RaidAwMainReas="RAID $AWARDSPENDTEXT，原因：$REASON。"
+QDKP2_LOC_ZeroSumSp="給予團隊 $SPENT DKP。"
+QDKP2_LOC_ZeroSumSpReas="給予團隊 $SPENT DKP，原因：$REASON。"
+QDKP2_LOC_ZeroSumAw="從 $GIVER 獲得 $AMOUNT DKP。"
+QDKP2_LOC_ZeroSumAwReas="從 $GIVER 獲得 $AMOUNT DKP，原因：$REASON。"
+QDKP2_LOC_ExtMod="$AWARDSPENDTEXT （原因：人為公會官員備註資訊編輯）"
+QDKP2_LOC_Generic="$AWARDSPENDTEXT" --these are used in the general case. (eg. manual editing to DKP)
+QDKP2_LOC_GenericReas="$AWARDSPENDTEXT 原因：$REASON。"
+QDKP2_LOC_DKPPurchase="購買 $ITEM 花費了 $AMOUNT DKP。"
+QDKP2_LOC_NoPlayerInChance="你正在嘗試編輯一個不再本地緩存資料中的人員。"
+QDKP2_LOC_MaxNetLimit="$NAME 的DKP已達上限（$MAXIMUMNET），無法繼續獲取。"
+QDKP2_LOC_MaxNetLimitLog="當前DKP上限已達到，DKP獲取被調整。"
+QDKP2_LOC_MinNetLimit="$NAME 的DKP已達下限（$MINIMUMNET)），無法繼續失去。"
+QDKP2_LOC_MinNetLimitLog="當前DKP下限已達到，DKP失去被調整。"
+
+--lost awards
+QDKP2_LOC_NODKP_Offline="離線"
+QDKP2_LOC_NODKP_Rank="無DKP等級"
+QDKP2_LOC_NODKP_Zone="不在區域內"
+QDKP2_LOC_NODKP_Manual="人為限制"
+QDKP2_LOC_NODKP_Generic="其他原因"
+QDKP2_LOC_NODKP_LowAtt="低出勤率（$PERC%%）"
+QDKP2_LOC_NODKP_NetLimit="當前DKP受限制"
+QDKP2_LOC_NODKP_IMStart="在全程獎勵開始時不在。"
+QDKP2_LOC_NODKP_IMStop="在全程獎勵結束時不在。"
+QDKP2_LOC_NODKP_Alt="關聯小號"
+QDKP2_LOC_NODKP_Standby="在活動中替補"
+QDKP2_LOC_NODKP_External="不在公會中"
+QDKP2_LOC_NoDKPRaid="$WHYNOT。擊殺失敗獲得 $AMOUNT DKP。"
+QDKP2_LOC_NoDKPRaidReas="$WHYNOT。擊殺失敗獲得 $AMOUNT DKP，原因：$REASON。"
+QDKP2_LOC_NoDKPZS="$WHYNOT. Loses ZS share of $AMOUNT DKP from $GIVER"--Can not be translated
+QDKP2_LOC_NoDKPZSReas="$WHYNOT. Loses ZS share of $AMOUNT DKP for $REASON"--Can not be translated
+QDKP2_LOC_NoTick="$WHYNOT. Loses Timer Tick"--Can not be translated
+
+--timer
+QDKP2_LOC_TimerTick="計時器計時"
+QDKP2_LOC_IntegerTime="每小時獲得"
+QDKP2_LOC_RaidTimerLog="計時器計時，線上團隊成員獲得 $TIME 小時時長。"
+QDKP2_LOC_TimerStop="計時器 停止"
+QDKP2_LOC_TimerResumed="計時器 繼續"
+QDKP2_LOC_TimerStarted="計時器 開始"
+QDKP2_LOC_TimerPaused="計時器 暫停"
+QDKP2_LOC_GUItimer="還有%M:%S將記錄。"
+
+--upload
+QDKP2_LOC_NoMod="相對於上次下載/上傳，沒有DKP修改。"
+QDKP2_LOC_SucLocal="儲存記錄：$UPLOADED 條記錄被儲存到本地。"
+QDKP2_LOC_Successful="上傳記錄：$UPLOADED 條記錄將被上傳的公會官員備註，等待確認..."
+QDKP2_LOC_Failed="上傳記錄：$FAILED 條記錄並沒有被成功上傳，請稍後再試。"
+QDKP2_LOC_IndexNoFound="公會索引中沒有找到 $NAME，跳過，稍後會再次嘗試。"
+QDKP2_LOC_IndexNoFoundLog="公會索引緩存不完整。（上傳失敗）"
+QDKP2_LOC_CheckOK="注意：DKP資料已經同步。"
+QDKP2_LOC_CheckAborted="由於所做的修改，上傳檢查被中止。"
+
+--Externals
+QDKP2_LOC_CantAddExternalInGuild="不能把 $NAME 作為會外編入人員：他已經在公會中了。"
+QDKP2_LOC_CantDeleteUnexistingExternals="不能刪除 $NAME：他不是一個有效的會外編入人員。"
+QDKP2_LOC_InvalidExternalName="名字不正確。"
+QDKP2_LOC_ExternalRemoved="$NAME 從公會列表中移出。"
+QDKP2_LOC_ExtPost="<QDKP2> 會外人員的DKP資料"
+QDKP2_LOC_ExtLine="$NAME：當前 $NET，總共 $TOTAL，時長 $HOURS"
+
+--Bid manager
+QDKP2_LOC_BidAck = "OK，出分收到。"
+QDKP2_LOC_CantRebid = "本次競標你已經出分。"
+QDKP2_LOC_BidEqual = "你的出分和之前的出分相同。"
+QDKP2_LOC_BidLess = "你的出分小於之前的出分。"
+QDKP2_LOC_BidGreater = "你不能出比你當前DKP更多的分。你最多出 $NET 分。"
+QDKP2_LOC_BidnoDKP = "你最少需要 $MINBIDDKP 來出分。你當前有 $NET 分。"
+QDKP2_LOC_BidNoGuild = "只有公會成員才能出分。"
+QDKP2_LOC_BidLessMinimum = "最低出分是 $MINBID"
+QDKP2_LOC_BidMoreMaximum = "最高出分是 $MAXBID"
+QDKP2_LOC_BidRollWrong = "那不是一個1-100的ROLL點。"
+QDKP2_LOC_BidRollMulti = "你不能ROLL第二次。"
+QDKP2_LOC_BidRollFirstv = "你必須先ROLL再出分。"
+QDKP2_LOC_BidRollAck = "OK，ROLL點已收到。"
+QDKP2_LOC_BidRemove = "你的出分被人為清除了。"
+QDKP2_LOC_BidInvalid = "你的出分被禁止並被移除了。"
+QDKP2_LOC_BidPlaceLog = '為 $ITEM 出分："$BIDTEXT"'
+QDKP2_LOC_BidPlaceLogVal = "($VALUE)"
+QDKP2_LOC_BidRemovedLog = "剛才的出分被取消了。"
+QDKP2_LOC_BidRollsLog = "為 $ITEM ROLL了 $ROLL。"
+QDKP2_LOC_BidStartLog = "為 $ITEM 的出分開始。"
+QDKP2_LOC_BidWinLog = "出分最高獲取了 $ITEM。"
+QDKP2_LOC_BidCancelLog = "為 $ITEM 的出分取消了。"
+QDKP2_LOC_NoEligible = "你沒有許可權使用那個關鍵字。"
+QDKP2_LOC_BidGiveLoot = "你確認把\n $ITEM\n給 "..QDKP2_COLOR_BLUE.."$NAME|r （ "..QDKP2_COLOR_GREEN.."$AMOUNT|r DKP）？"
+
+--Log
+QDKP2_LOC_GeneralSession="常規"
+QDKP2_LOC_NoSessName="未命名"
+QDKP2_LOC_LootsItem="拾取物品 $ITEM"
+QDKP2_LOC_ShardsItem="分解 $ITEM"
+QDKP2_LOC_BossKill="$BOSS 被擊殺！"
+QDKP2_LOC_Kill="$BOSS 擊殺" -- used as reason for boss DKP awards.
+QDKP2_LOC_InvalidLog="*錯誤: 未知記錄格式*"
+QDKP2_LOC_InvalidLogDKP="*錯誤: DKP記錄損壞*"
+QDKP2_LOC_InvalidLinkTime="*錯誤: 沒有時間戳記*"
+QDKP2_LOC_InvalidLinkPlayer="*錯誤: 沒有相關玩家*"
+QDKP2_LOC_InvalidLinkSession="*錯誤: 沒有相關活動*"
+QDKP2_LOC_InvalidLinkSessName="*錯誤: 相關活動未出現*"
+QDKP2_LOC_JoinSess="加入活動 $NAME"
+QDKP2_LOC_SessJoin="參與活動 $SESSION"
+
+--download
+QDKP2_LOC_NewSessionQ="輸入活動名稱"
+QDKP2_LOC_NewSession="新活動開始：$SESSIONNAME"
+QDKP2_LOC_DifferentTot="$NAME 的當前DKP+消費DKP不等於總共獲取的DKP，請檢查。"
+QDKP2_LOC_NewGuildMember="$NAME 加入公會人員列表。"
+QDKP2_LOC_ExternalJoined="$NAME 成為公會的一員。我將移出他作為會外人員的DKP記錄，請儘快上傳新記錄。"
+QDKP2_LOC_GuildRosterReverted="所有未上傳的改變已從記錄中清除。"
+QDKP2_LOC_AddedToGuildRoster="添加了 $NUM 個玩家到公會人員列表中。"
+QDKP2_LOC_CloseIMSessWarn="全程獎勵未結束，你想現在結束活動麼？"
+
+end

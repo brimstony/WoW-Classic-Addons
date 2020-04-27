@@ -1,0 +1,33 @@
+## Interface: 11303
+## Title: Honor Tracker
+## Description: Honor tracking with diminishing returns
+## Version: v3.2.7
+## Author: Shadowed
+## SavedVariablesPerCharacter: HonorTrackerDB
+## SavedVariables: HonorTrackerGlobalDB
+## OptionalDeps: Ace3, ChatThrottleLib
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\AceSerializer-3.0\AceSerializer-3.0.xml
+libs\AceComm-3.0\AceComm-3.0.xml
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceConfig-3.0\AceConfig-3.0.xml
+libs\LibDBIcon-1.0\lib.xml
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+#@end-no-lib-strip@
+
+localization/enUS.lua
+
+HonorTracker.lua
+resetTime.lua
+comms.lua
+stats.lua
+tracking.lua
+brackets.lua
+bracketsSync.lua
+bracketUI.lua
+display.lua
+config.lua
+slashConfig.lua

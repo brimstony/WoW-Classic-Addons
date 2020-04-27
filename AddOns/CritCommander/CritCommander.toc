@@ -1,0 +1,7 @@
+## Interface: 11302
+## Title: Crit Commander
+## DefaultState: Enabled
+## Author: Epodox
+## Version: 0.1.8
+## Notes: Enhances your crit damage!
+main.lua
